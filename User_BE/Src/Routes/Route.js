@@ -4,7 +4,7 @@ const express = require('express');
 const Path = express.Router()
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-let Secret = process.env.SEC
+let Secret ="JHB78VDSG389WAFWEFFWE"
 
 Path.get('/', (req, res) => {
     res.send('<h1>Its Working..!</h1>')
